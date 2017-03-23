@@ -1,0 +1,10 @@
+hello
+
+{{#each model as |happy|}}
+  {{happy-tile happy=happy}}
+{{/each}}
+
+{{happy.author}}
+
+{{#link-to 'about'}}about{{/link-to}}
+{{#link-to 'contact'}}contact{{/link-to}}
